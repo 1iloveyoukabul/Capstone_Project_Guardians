@@ -26,7 +26,7 @@ public class LoginSteps extends CommonUtility {
 
 	@When("User click on the login link")
 	public void userClickOnTheLoginLink() {
-		click(factory.retailLoginPage().sigInLink);
+		click(factory.retailLoginPage().sigInLinks);
 		logger.info("Usre clicked successfully");
 	}
 
