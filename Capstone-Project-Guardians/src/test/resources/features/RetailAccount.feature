@@ -1,3 +1,4 @@
+@smoke 
 Feature: Retail Account Page
 
   Background: 
@@ -11,7 +12,7 @@ Feature: Retail Account Page
   @UpdatingInfo
   Scenario: User is able to update profile information
     When User click on Account option
-    When User update Name 'Alex' and Phone '8889996617'
+    When User update Name 'John' and Phone '8889996617'
     And User click on update button
     Then User profile should be updated
 
@@ -32,7 +33,7 @@ Feature: Retail Account Page
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 4444555566663339 | Reborts     |              12 |           2027 |          503 |
+      | 4444555566663331 | Reborts     |              12 |           2027 |          503 |
     And user click on Update Your Card button
     Then a message should be displayed 'Payment Method updated Successfully'
 

@@ -1,4 +1,4 @@
-@Regression
+@smoke 
 Feature: Retail Order Page
   Background: 
     Given User is on the retail website homepage
