@@ -16,7 +16,7 @@ public class RetailLoginPage extends BaseSetup {
 			public WebElement TekSchoolLogo;
 			
 			@FindBy(id = "signinLink")
-			public WebElement sigInLink;
+			public WebElement sigInLinks;
 
 		    @FindBy(id = "email")
 		    public WebElement emailField;	
